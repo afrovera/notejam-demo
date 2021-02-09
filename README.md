@@ -16,7 +16,7 @@ About this solution
 
 For this assignment, deployment is carried out on AWS.
 
-The app is dockerized and deployed through CI/CD pipeline to ECS cluster with ALB/Auto-scaling which programmatically assigns the tasks to back-ends. The same templace can be deployed into dev and test environment mirroring prod, and to other regions.
+The app is dockerized and deployed through CI/CD pipeline to ECS cluster with ALB/Auto-scaling which programmatically assigns the tasks to back-ends. The same template can be deployed into dev and test environment mirroring prod, and to other regions.
 
 Logs and metrics are collected from relevant components of the infrastructure, in particular:
 - CodeBuild - application and container build logs 
