@@ -33,7 +33,7 @@ Future considerations:
 - Fail pipeline if critical/high severity issue found by ECR scan
 - Integrate pipeline stages with manual approvals
 - Deploy application to more regions and use Route 53 latency-based routing policy to deliver high availibility 
-- Consier using AWS WAF with ALB for protection against common applciation-layer web attacks
+- Consider using AWS WAF with ALB for protection against common applciation-layer web attacks
 - Consider usign ACM to secure ALB traffic with SSL certificates
 
 Improved architecture:
