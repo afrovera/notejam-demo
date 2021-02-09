@@ -30,7 +30,7 @@ Future considerations:
 - Apply S3 lifecycle policy to the applciation files to be archived to Glacier and kept up to 3 years
 - Enable S3 access logging is insight into the traffic is desired
 - Integrate pipeline with ECR scans of docker containers
-- Fail pipeline if crotical/high severity issue found by ECR scan
+- Fail pipeline if critical/high severity issue found by ECR scan
 - Integrate pipeline stages with manual approvals
 - Deploy application to more regions and use Route 53 latency-based routing policy to deliver high availibility 
 - Consier using AWS WAF with ALB for protection against common applciation-layer web attacks
